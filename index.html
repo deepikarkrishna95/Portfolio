@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepika Ravi Krishna | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Deepika Ravi Krishna, a software professional with experience in product delivery, design planning, and development."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Senior GPU Systems Engineer • Bengaluru, India</p>
+        <h1>Deepika Ravi Krishna</h1>
+        <p class="hero__summary">
+          Senior GPU systems engineer with 8+ years of expertise in GPU architecture, graphics programming, and high-performance compute optimization. Specialized in GPU pipeline design, real-time rendering optimization, and large-scale performance profiling. Demonstrated track record: 50-60% execution time reduction through GPU-aware optimization, 30-40% performance improvement via GPU acceleration, 10-15% reduction in post-shipment failures through comprehensive GPU validation.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://www.linkedin.com/in/deepika-ravikrishna/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+          <a class="btn btn--secondary" href="#experience">View Experience</a>
+        </div>
+        <ul class="hero__highlights">
+          <li>GPU Architecture & Vulkan</li>
+          <li>Real-Time Rendering</li>
+        </ul>
+      </div>
+      <div class="hero__card" aria-label="Profile snapshot">
+        <div class="avatar">
+          <img src="profile.jpg" alt="Deepika Ravi Krishna - Profile Photo" class="avatar-img">
+        </div>
+        <h2>Core Expertise</h2>
+        <p>
+          GPU pipeline design • Graphics programming • Vulkan/OpenGL • Performance profiling • High-compute optimization • Real-time systems • CUDA interoperability
+        </p>
+        <div class="card__stats">
+          <div>
+            <strong>8+ yrs</strong>
+            <span>GPU Systems</span>
+          </div>
+          <div>
+            <strong>Qualcomm</strong>
+            <span>Senior Role</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <div class="section__header">
+          <p class="eyebrow">About</p>
+          <h2>Optimizing GPU workloads at the systems level</h2>
+        </div>
+        <p>
+          Deepika is a GPU systems specialist with deep expertise in GPU architecture validation, graphics pipeline optimization, and compute kernel efficiency. Her work spans Vulkan render passes, Adreno TBDR pipeline design, GPU profiling methodology (RenderDoc, Snapdragon Profiler, NSight), and performance-critical applications across automotive (ADAS), medical imaging, and semiconductor validation domains. Strong track record applying GPU systems thinking to achieve measurable performance gains: 50-60% execution time reduction, 30-40% GPU acceleration improvements, and 10-15% reduction in post-shipment GPU-related failures.
+        </p>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Experience</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item">
+            <h3>Senior GPU Validation & Graphics Systems Engineer</h3>
+            <p class="timeline__meta">Qualcomm • Bengaluru, India (Jul 2022 - Apr 2026)</p>
+            <p class="timeline__highlight"><strong>Adreno GPU Architecture & Vulkan Pipeline Validation:</strong> Designed and validated Vulkan rendering pipeline on Adreno GPU covering render passes, command buffer recording, descriptor set management, image layout transitions, synchronization barriers, and PSO state management. Implemented shadow mapping validation using depth-only draw pass, improving validation coverage of GPU pipeline parallelism.</p>
+            <p class="timeline__highlight"><strong>GPU Performance Optimization & Profiling:</strong> Achieved 50-60% reduction in per-test execution runtime via multi-threaded GPU rendering, triple buffering, and GPU-CPU synchronization. In-depth profiling using Snapdragon Profiler, NSight Systems, PIX, and Perfetto to resolve shader bottlenecks, overdraw, and memory-bandwidth saturation via GPU performance counters.</p>
+            <p class="timeline__highlight"><strong>GPU Validation Framework & Headless CI:</strong> Designed FBO-based offscreen rendering to remove display-server dependency from GPU validation workloads. Reduced GPU test failures by 5-10% and enabled headless CI execution on Android/Windows manufacturing platforms.</p>
+            <p class="timeline__highlight"><strong>Impact:</strong> Reduced post-shipment GPU-related RMAs by ~10-15% for Samsung and internal customers through rigorous functional testing.</p>
+          </article>
+          <article class="timeline__item">
+            <h3>Software Developer - Medical Imaging Graphics & Real-Time Systems</h3>
+            <p class="timeline__meta">Siemens Healthineers • Bengaluru, India (Mar 2021 - Jul 2022)</p>
+            <p class="timeline__highlight"><strong>GPU-Based Medical Image Rendering:</strong> Developed and maintained Display Pipeline and Display Control Manager using OpenGL for real-time medical image rendering. Implemented DICOM medical image visualization with GPU acceleration for high-fidelity, low-latency clinical diagnostic workflows in safety-critical environments.</p>
+            <p class="timeline__highlight"><strong>Real-Time Latency Analysis:</strong> Used NVIDIA NSight and frame-analysis tools to profile GPU rendering pipeline bottlenecks. Optimized GPU utilization and draw-call efficiency to meet real-time latency requirements for clinical use.</p>
+          </article>
+          <article class="timeline__item">
+            <h3>Executive Software Engineer - GPU-Accelerated Visualization & ADAS Systems</h3>
+            <p class="timeline__meta">Continental Automotive • Bengaluru, India (Jan 2019 - Mar 2021)</p>
+            <p class="timeline__highlight"><strong>GPU-Accelerated Rendering Architecture:</strong> Designed end-to-end GPU rendering frameworks and sensor-visualization architectures for ADAS programs (VW, Daimler, BMW, Porsche). Led technical ownership for GPU visualization systems across multiple automotive programs, defining rendering pipeline structure, viewport management, and shader strategy.</p>
+            <p class="timeline__highlight"><strong>CUDA GPU-to-GPU Interoperability:</strong> Integrated CUDA interoperability into ARS540 RDI radar visualization pipeline, eliminating CPU-side load/store overhead. Increased real-time frame rate by 30-40%, achieving sustained 60 FPS on Linux platforms.</p>
+            <p class="timeline__highlight"><strong>Multi-Sensor Fusion & Real-Time Data Pipeline:</strong> Built multi-sensor fusion rendering frameworks combining Short Range Radar, Long Range Radar, and Camera data via eCAL/ProtoBuf IPC. Delivered interactive dual-viewport GPU rendering with error ellipses and association cost visualization for object tracking.</p>
+          </article>
+          <article class="timeline__item">
+            <h3>Associate Software Engineer & Graduate Trainee - Graphics & GUI</h3>
+            <p class="timeline__meta">Continental Automotive • Bengaluru, India (Jul 2017 - Jan 2019)</p>
+            <p class="timeline__highlight">Developed OpenGL/GLSL rendering pipelines and Qt GUI components for automotive sensor visualization. Built IPC mechanisms for real-time graphics integration. Completed structured engineering induction covering GPU graphics fundamentals, C++ development, and Agile practices. Filed Invention Disclosure during Continental's Innovation program.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Education & Certifications</p>
+        </div>
+        <div class="card card--inline">
+          <h3>Bachelor of Engineering (B.E.) - Computer Science & Engineering</h3>
+          <p>Sri Krishna Institute of Technology, Visvesvaraya Technological University | 2013 - 2017 | GPA: 76.02%</p>
+        </div>
+        <div class="certifications">
+          <h3>Professional Certifications</h3>
+          <ul class="cert-list">
+            <li>Computer Graphics with Modern OpenGL & C++ - Udemy, Dec 2022</li>
+            <li>Practical OpenGL and GLSL Shaders Fundamentals with C++ - Udemy, Dec 2022</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Technical Skills</p>
+          <h2>GPU programming & systems expertise</h2>
+        </div>
+        <div class="skills-category">
+          <h4>GPU Programming & APIs</h4>
+          <div class="skills">
+            <span>Vulkan</span>
+            <span>OpenGL / OpenGL ES</span>
+            <span>GLSL / SPIR-V</span>
+            <span>CUDA</span>
+            <span>WebGL</span>
+            <span>DirectX/HLSL</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h4>GPU Architecture & Compute</h4>
+          <div class="skills">
+            <span>Adreno GPU</span>
+            <span>Tile-Based Deferred Rendering (TBDR)</span>
+            <span>Compute Shaders</span>
+            <span>Ray Tracing</span>
+            <span>Variable-Rate Shading (VRS)</span>
+            <span>Memory Bandwidth Optimization</span>
+            <span>Synchronization Primitives</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h4>GPU Profiling & Debugging</h4>
+          <div class="skills">
+            <span>RenderDoc</span>
+            <span>Snapdragon Profiler</span>
+            <span>NVIDIA NSight</span>
+            <span>PIX / Perfetto</span>
+            <span>GPU Performance Counters</span>
+            <span>Frame Analysis</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h4>Languages & Tools</h4>
+          <div class="skills">
+            <span>C++11</span>
+            <span>C++17</span>
+            <span>Python</span>
+            <span>CMake</span>
+            <span>Git</span>
+            <span>Android Studio</span>
+            <span>Visual Studio</span>
+            <span>Qt Creator</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h4>Platforms & Systems</h4>
+          <div class="skills">
+            <span>Android</span>
+            <span>Windows</span>
+            <span>Linux</span>
+            <span>Qualcomm Snapdragon</span>
+            <span>Embedded Systems</span>
+            <span>CI/CD Pipelines</span>
+            <span>Manufacturing Validation</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--contact">
+        <div class="section__header">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's collaborate</h2>
+        </div>
+        <p>
+          Open to meaningful conversations around GPU systems, graphics programming, high-performance compute, and GPU-accelerated ML inference challenges.
+        </p>
+        <div class="contact-info">
+          <p><strong>Email:</strong> deepikar.krishna95@gmail.com</p>
+          <p><strong>Phone:</strong> +91 8792523781</p>
+          <p><strong>Location:</strong> Bengaluru, India</p>
+        </div>
+        <a class="btn btn--primary" href="https://www.linkedin.com/in/deepika-ravikrishna/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+      </section>
+    </main>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container" id="chatbotContainer">
+      <div class="chatbot-header">
+        <h3>Chat with me</h3>
+        <button class="chatbot-close" onclick="toggleChatbot()" aria-label="Close chatbot">×</button>
+      </div>
+      <div class="chatbot-messages" id="messages"></div>
+      <div class="chatbot-input-area">
+        <input 
+          type="text" 
+          id="userInput" 
+          placeholder="Type a message..."
+          onkeypress="handleKeyPress(event)"
+        >
+        <button class="chatbot-send" onclick="sendMessage()" aria-label="Send message">Send</button>
+      </div>
+    </div>
+
+    <!-- Floating chatbot toggle button -->
+    <button class="chatbot-toggle" onclick="toggleChatbot()" aria-label="Open chatbot">
+      <span>💬</span>
+    </button>
+
+    <footer>
+      <p>© 2026 Deepika Ravi Krishna</p>
+    </footer>
+
+    <script src="chatbot.js"></script>
+  </body>
+</html>
